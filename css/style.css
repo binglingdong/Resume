@@ -49,10 +49,7 @@ ul{
     font-weight: bold;
     margin: 10px;
 }
-.card-header{
-    padding:0;
-    margin:0;
-}
+
 h1{
     font-weight: bold;
     margin-top:0;
@@ -88,6 +85,13 @@ h5{
     margin-left: 20px;
     color: slategrey;
 }
+.openButton{
+    margin-left: 20px;
+}
+.closeButton{
+    display: block;
+    margin:10px;
+}
 
 .navg{
     padding-top: 20px;
@@ -118,10 +122,16 @@ h5{
     color: silver;
 }
 img{
-    max-height: 400px;
-    max-width: 600px;
+    width:100%;
+    height:auto;
+    max-height: 800px;
+    max-width: 1000px;
+    padding: 20px;
 }
-
+.card-body{
+    display:block;
+    text-align: center;
+}
 .skillLeft{
     margin-bottom: 5em;
     float: left;

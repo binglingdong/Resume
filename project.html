@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <meta name="description" content="Bingling Dong's Resume Page">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
-
 </head>
 <body>
     <nav class = "navg">
         <a href = "index.html">Basic Information</a>
         <a href = "project.html">Project/Research</a>
     </nav>
-    <div class = "body" id = "top">
+    <div class = "body" id = "ProjectTop">
         <h1>Bingling Dong</h1>
         <h2>1760 67th St FL1, Brooklyn, NY 11204</h2>
         <h2><a href = "tel:1-917-903-4834">(917)-903-4834</a></h2>
@@ -21,48 +22,122 @@
         </h2>
 
         <h3>RESEARCH/PROJECT:</h3>
-        <h4>Hangman:</h4><span class= "fromDate">Summer 2018</span>
-        Used: JavaFX, FXML, Scene Builder  
-        Description: A word guessing game with pictures of hangman.
- 
-        <h4>SB Diet:</h4> <span class= "fromDate">Fall 2018</span>
-        Used: Java, AWT, JavaFX
-        Description:
-        36 hours hackathon team project with the goal to bring awareness to the
-connection between eating habits and health issues.
-        Users use left, right, up, down keys to control the character to move around to
-collect the food and special items dropping from sky.
+        <br />
+        <span class= "projectFromDate">Summer 2018</span><h5>Hangman:</h5>
+        <p class ="used">Used: JavaFX, FXML, Scene Builder</p>
+        <p class = "des"><u>Description</u>: A word guessing game with pictures of hangman.</p>
 
-        
-        
-        <h4>Course Site Generator: </h4> <span class= "fromDate">Fall 2018</span>
-        Used: JavaFX, Java, CSS, HTML, JSON, JS
-        Description: Used libraries provided by Professor.
-        An application to generate a website for a course by using user inputs. 
-        Transaction Process System (undo/redo) available.
-        Files saved/uploaded in JSON formats.
-    
-        
-        <h4>Vertically Integrated Projects - PoliTech Team:</h4> <span class= "fromDate">Spring 2019</span>
-        Used: Python, Django, MySQL, JSON
-Description:
-    Studied political fairness when redistricting. How to develop a software that does gerrymandering fairly.
+        <p>
+            <a class="btn" data-toggle="collapse" href="#hangman" role="button" aria-expanded="false" aria-controls="hangman">
+                Images
+            </a>
+        </p>
+        <div class="collapse" id="hangman">
+            <div class="card card-body">
+                example
+            </div>
+        </div>
 
-    Created a database that can store all the data collected by CSE308 students so they can be reused next semester.
-    
-        <h4>Sahara: </h4><span class= "fromDate">Spring 2019</span>
-    Used: JS, HMTL/CSS, MySQL, NodeJS, Express, Handlebars, Bootstrap 
-Description: A team project to create both the frontend and the backend of an E-commerce
-website that sells items online.
-Ø Database schema designed in BCNF form.
-Ø Website designed completely by team.
-        <img src = "images/sahara1.png" alt = "home page" />
-        
-        
+        <br /> <br /> <br />
+        <span class= "projectFromDate">Fall 2018</span><h5>SB Diet:</h5>
+        <p class = "used">Used: Java, AWT, JavaFX</p>
+        <p class = "des"><u>Description</u>: A 36 hours Hackathon team project with the goal of bring awareness to the connection between eating habits and health issues.<br />
+            - Users can use left, right, up, down keys to control the character to move around the screen to collect the food and special items dropping from the top of the screen.
+            Their goal is to collect enough items so that at the end of 60 second, the calories they intake is in the correct range.
+        </p>
+        <p>
+            <a class="btn" data-toggle="collapse" href="#sbDiet" role="button" aria-expanded="false" aria-controls="sbDiet">
+                Images
+            </a>
+        </p>
+        <div class="collapse" id="sbDiet">
+            <div class="card card-body">
+                example
+            </div>
+        </div>
+
+
+        <br />
+        <span class= "projectFromDate">Fall 2018</span><h5>Course Site Generator: </h5>
+        <p class = "used">Used: JavaFX, Java, CSS, HTML, JSON, JS</p>
+        <p class = "des"><u>Description</u>: An application that can generate a course website for a course based on user inputs with default layout.
+            <br />
+            - Focused on design patterns.<br />
+            - Transaction Process System (undo/redo) available.<br />
+            - Files saved/uploaded in JSON formats. <br />
+            - Used libraries provided by Professor Mckenna.
+        </p>
+        <p>
+            <a class="btn" data-toggle="collapse" href="#courseSite" role="button" aria-expanded="false" aria-controls="courseSite">
+                Images
+            </a>
+        </p>
+        <div class="collapse" id="courseSite">
+            <div class="card card-body">
+                example
+            </div>
+        </div>
+
+
+        <br />
+        <span class= "projectFromDate">Spring 2019</span> <h5>Vertically Integrated Projects - PoliTech Team:</h5>
+        <p class = "used">Used: Python, Django, MySQL, JSON</p>
+        <p class = "des"><u>Description</u>: Studied political fairness when redistricting. How to develop a software that does gerrymandering fairly.<br />
+            - Created a database that can store all data collected by CSE308 students so these data can be reused for next semester.
+        </p>
+        <p>
+            <a class="btn" data-toggle="collapse" href="#vip" role="button" aria-expanded="false" aria-controls="vip">
+                Images
+            </a>
+        </p>
+        <div class="collapse" id="vip">
+            <div class="card card-body">
+                example
+            </div>
+        </div>
+
+
+        <br />
+        <span class= "projectFromDate">Spring 2019</span> <h5>Sahara: </h5>
+        <p class = "used">Used: JS, HMTL/CSS, MySQL, NodeJS, Express, Handlebars, Bootstrap</p>
+        <p class = "des"><u>Description</u>: A team project to develop both the frontend and the backend of an E-commerce website that sells items online.<br />
+            - Database schema designed in BCNF form.<br />
+            - Website designed completely by the team. Including layout and style.
+        </p>
+        <p>
+            <a class="btn" data-toggle="collapse" href="#sahara" role="button" aria-expanded="false" aria-controls="sahara">
+                Images
+            </a>
+        </p>
+        <div class="collapse" id="sahara">
+            <div class="card card-body">
+                <img src = "images/sahara1.png" alt = "home page" />
+                <img src = "images/sahara.png" alt = "about page" />
+                <img src = "images/sahara2.png" alt = "sign in page" />
+                <img src = "images/sahara3.png" alt = "shopping cart page" />
+                <img src = "images/sahara4.png" alt = "item page" />
+                <img src = "images/sahara6.png" alt = "account page" />
+                <a class="btn" data-toggle="collapse" href="#sahara" role="button" aria-expanded="false" aria-controls="sahara">
+                    Images
+                </a>
+            </div>
+        </div>
+
+
+
         <hr />
         <div class = "footer">
-            <a href = "#top">Back to top</a>
+            <a href = "#ProjectTop">Back to top</a>
         </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
     </div>
     
 </body>

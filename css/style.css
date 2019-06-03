@@ -43,6 +43,16 @@ ul{
 .fromDate{
     float: right;
 }
+.projectFromDate{
+    font-size:20pt;
+    float: right;
+    font-weight: bold;
+    margin: 10px;
+}
+.card-header{
+    padding:0;
+    margin:0;
+}
 h1{
     font-weight: bold;
     margin-top:0;
@@ -50,7 +60,7 @@ h1{
 }
 h2{
     margin: 3px;
-    font-size: 20px;
+    font-size: 20pt;
     text-align: center;
 }
 h3{
@@ -64,6 +74,21 @@ h4{
     font-size: 16pt;
     font-weight: bold;
 }
+h5{
+    font-size: 20pt;
+    margin:10px;
+    font-weight: bold;
+}
+.used{
+    margin-left: 20px;
+    font-style: italic;
+    color: slategrey;
+}
+.des{
+    margin-left: 20px;
+    color: slategrey;
+}
+
 .navg{
     padding-top: 20px;
     padding-bottom: 20px;

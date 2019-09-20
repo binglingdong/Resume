@@ -6,14 +6,15 @@ body{
 
 }
 .body{
-    padding:6em;
+    padding:10em;
+
 }
 a:link, a:active, a:visited{
-    color:darkcyan;
+    color:#89B17E;
     text-decoration: none;
 }
 a:hover{
-    color:cornflowerblue;
+    color:#425A3B;
 }
 
 p{
@@ -103,10 +104,10 @@ h5{
     position: fixed;
     width: 100%;
     box-sizing: border-box;
-    background-image: linear-gradient(to bottom, #dcf1f4, rgba(255, 255, 255, 0));
-    background-image: -o-linear-gradient(top, #dcf1f4, rgba(255, 255, 255, 0));
-    background-image: -moz-linear-gradient(top, #dcf1f4, rgba(255, 255, 255, 0));
-    background-image: -webkit-linear-gradient(top, #dcf1f4, rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to bottom, #EDFFE8, rgba(255, 255, 255, 0));
+    background-image: -o-linear-gradient(top, #EDFFE8, rgba(255, 255, 255, 0));
+    background-image: -moz-linear-gradient(top, #EDFFE8, rgba(255, 255, 255, 0));
+    background-image: -webkit-linear-gradient(top, #EDFFE8, rgba(255, 255, 255, 0));
     transition: .5s;
 }
 .navg a:link, .navg a:active, .navg a:visited{
@@ -131,16 +132,6 @@ img{
 .card-body{
     display:block;
     text-align: center;
-}
-.skillLeft{
-    margin-bottom: 5em;
-    float: left;
-    width: 50%;
-}
-.skillRight{
-    margin-bottom: 5em;
-    float: left;
-    width: 40%;
 }
 
 .footer{

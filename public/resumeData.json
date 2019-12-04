@@ -113,19 +113,19 @@
         "title":"Collaborative Problem Solving",
         "category":"A group research on the SBU Transit system and application.",
         "image":"writing.png",
-        "url":"https://github.com/binglingdong/SBsDiet"
+        "url":"https://raw.githubusercontent.com/binglingdong/Resume/gh-pages/doc/CSE300%Presentation.pdf"
       },
       {
         "title":"News Release",
         "category":"A news about an upcoming Thanksgiving Event with the Sigma Beta Honors Society",
         "image":"writing.png",
-        "url":"https://github.com/binglingdong/SBsDiet"
+        "url":"https://raw.githubusercontent.com/binglingdong/Resume/gh-pages/doc/NewsRelease.pdf"
       },
       {
         "title":"User Instruction: Zelle",
         "category":"A user manual on how to transfer money online using Zelle.",
         "image":"zelle.png",
-        "url":"https://github.com/binglingdong/SBsDiet"
+        "url":"https://raw.githubusercontent.com/binglingdong/Resume/gh-pages/doc/UserInstruction.pdf"
       }
     ]
   }

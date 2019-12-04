@@ -1,56 +1,30 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Bingling Dong",
+    "occupation":"Software Engineer",
+    "description": "Studying Computer Science at Stony Brook University",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"A college senior seeking a summer internship to gain experiences in all areas pursuing a Bachelor’s and a Master’s degree in Computer Science. An optimistic, organized, and hard-working young adult that is capable of adapting new concepts quickly.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "bingling.dong@yahoo.com",
+    "phone": "917-903-4834",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"NYC",
+      "state":"New York",
+      "zip": "11204"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://binglingdong.github.io/Resume/",
+    "resumedownload":"./doc/Resume.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/bingling-dong/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/binglingdong",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
@@ -58,106 +32,90 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Stony Brook University",
+        "degree":"Bachelor and Master of Science in Computer Science",
+        "graduated":"May 2021",
+        "description":"Accelerated BS/MS Program.",
+        "gpa":"Current GPA: 3.93/4.00"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Stony Brook University",
+        "title":"Teaching Assistant",
+        "years":"2018 - Present",
+        "description2":"Fundamentals of Software Development, Object-Oriented Programming. ",
+        "description":"Hold office hours and help students to learn JavaScript and design Web Applications in a proper way. Intro to Object-Oriented Programming: hold office hours and help students to learn Java."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Sigma Beta Honors Society",
+        "title":"E-Board",
+        "years":"2017 - Present",
+        "description":"Lead and plan community service projects and volunteer works for Stony Brook University and the communities around it"
+      },
+      {
+        "company":"International Student Ambassadors",
+        "title":"Orientation Leader",
+        "years":"2017 - 2019",
+        "description":"Lead International students through the Orientation Week."
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name":"Java",
+        "level":"82%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"Python/C",
+        "level":"70%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"JavaScript",
+        "level":"65%"
       },
       {
-        "name":"CSS",
+        "name":"HTML/CSS",
         "level":"90%"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"MYSQL",
+        "level":"70%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Twitter Clone",
+        "category":"Twitter Clone",
+        "image":"twitterClone.png",
+        "url":"https://github.com/binglingdong/TwitterClone"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Sahara",
+        "category":"A team project to develop both the frontend and the backend of an E-commerce website that sells items online. Database schema designed in BCNF form.",
+        "image":"sahara.png",
+        "url":"https://github.com/binglingdong/Sahara"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Course Site Generator",
+        "category":"An application that can generate a course website for a course based on user inputs. Transaction Process System (undo/redo). Files saved/uploaded in JSON formats.",
+        "image":"courseSiteGenerator.png",
+        "url":"https://github.com/binglingdong/Course_Site_Generator"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"SB Diet",
+        "category":"36 hours hackathon team project with the goal to bring awareness to the connection between eating habits and health issues.",
+        "image":"SBDiet.png",
+        "url":"https://github.com/binglingdong/SBsDiet"
       }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
+    ],
+    "writingProject":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "title":"Colleb",
+        "category":"36 hours hackathon team project with the goal to bring awareness to the connection between eating habits and health issues.",
+        "image":"SBDiet.png",
+        "url":"https://github.com/binglingdong/SBsDiet"
       }
     ]
   }

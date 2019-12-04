@@ -4,8 +4,8 @@
     "occupation":"Software Engineer",
     "description": "Studying Computer Science at Stony Brook University",
     "image":"profilepic.jpg",
-    "bio":"A college senior seeking a summer internship to gain experiences in all areas pursuing a Bachelor’s and a Master’s degree in Computer Science. An optimistic, organized, and hard-working young adult that is capable of adapting new concepts quickly.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"I am a college senior seeking a summer internship to gain experiences in all areas. An optimistic, organized, and hard-working young adult that is capable of adapting new concepts quickly.",
+    "contactmessage":"I am looking forward to hearing from you",
     "email": "bingling.dong@yahoo.com",
     "phone": "917-903-4834",
     "address":{
@@ -14,7 +14,7 @@
       "zip": "11204"
     },
     "website": "https://binglingdong.github.io/Resume/",
-    "resumedownload":"doc/Resume.pdf",
+    "resumedownload":"https://raw.githubusercontent.com/binglingdong/Resume/gh-pages/doc/Resume.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -63,23 +63,23 @@
     "skills":[
       {
         "name":"Java",
-        "level":"82%"
+        "level":"85%"
       },
       {
-        "name":"Python/C",
+        "name":"Python, JavaScript, C",
         "level":"70%"
       },
       {
-        "name":"JavaScript",
-        "level":"65%"
-      },
-      {
-        "name":"HTML/CSS",
+        "name":"HTML, CSS",
         "level":"90%"
       },
       {
-        "name":"MYSQL",
+        "name":"MYSQL, MongoDB",
         "level":"70%"
+      },
+      {
+        "name":"React, Node.js, Express.js, Django",
+        "level":"75%"
       }
     ]
   },
@@ -87,7 +87,7 @@
     "projects": [
       {
         "title":"Twitter Clone",
-        "category":"Twitter Clone",
+        "category":"Twitter Clone. Working.",
         "image":"twitterClone.png",
         "url":"https://github.com/binglingdong/TwitterClone"
       },
@@ -108,13 +108,23 @@
         "category":"36 hours hackathon team project with the goal to bring awareness to the connection between eating habits and health issues.",
         "image":"SBDiet.png",
         "url":"https://github.com/binglingdong/SBsDiet"
-      }
-    ],
-    "writingProject":[
+      },
       {
-        "title":"Colleb",
-        "category":"36 hours hackathon team project with the goal to bring awareness to the connection between eating habits and health issues.",
-        "image":"SBDiet.png",
+        "title":"Collaborative Problem Solving",
+        "category":"A group research on the SBU Transit system and application.",
+        "image":"writing.png",
+        "url":"https://github.com/binglingdong/SBsDiet"
+      },
+      {
+        "title":"News Release",
+        "category":"A news about an upcoming Thanksgiving Event with the Sigma Beta Honors Society",
+        "image":"writing.png",
+        "url":"https://github.com/binglingdong/SBsDiet"
+      },
+      {
+        "title":"User Instruction: Zelle",
+        "category":"A user manual on how to transfer money online using Zelle.",
+        "image":"zelle.png",
         "url":"https://github.com/binglingdong/SBsDiet"
       }
     ]

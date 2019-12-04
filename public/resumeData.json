@@ -1,0 +1,122 @@
+{
+  "main": {
+    "name":"Bingling Dong",
+    "occupation":"Software Engineer",
+    "description": "Studying Computer Science at Stony Brook University",
+    "image":"profilepic.jpg",
+    "bio":"A college senior seeking a summer internship to gain experiences in all areas pursuing a Bachelor’s and a Master’s degree in Computer Science. An optimistic, organized, and hard-working young adult that is capable of adapting new concepts quickly.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "bingling.dong@yahoo.com",
+    "phone": "917-903-4834",
+    "address":{
+      "city":"NYC",
+      "state":"New York",
+      "zip": "11204"
+    },
+    "website": "https://binglingdong.github.io/Resume/",
+    "resumedownload":"./doc/Resume.pdf",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/bingling-dong/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/binglingdong",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Stony Brook University",
+        "degree":"Bachelor and Master of Science in Computer Science",
+        "graduated":"May 2021",
+        "description":"Accelerated BS/MS Program.",
+        "gpa":"Current GPA: 3.93/4.00"
+      }
+    ],
+    "work":[
+      {
+        "company":"Stony Brook University",
+        "title":"Teaching Assistant",
+        "years":"2018 - Present",
+        "description2":"Fundamentals of Software Development, Object-Oriented Programming. ",
+        "description":"Hold office hours and help students to learn JavaScript and design Web Applications in a proper way. Intro to Object-Oriented Programming: hold office hours and help students to learn Java."
+      },
+      {
+        "company":"Sigma Beta Honors Society",
+        "title":"E-Board",
+        "years":"2017 - Present",
+        "description":"Lead and plan community service projects and volunteer works for Stony Brook University and the communities around it"
+      },
+      {
+        "company":"International Student Ambassadors",
+        "title":"Orientation Leader",
+        "years":"2017 - 2019",
+        "description":"Lead International students through the Orientation Week."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Java",
+        "level":"82%"
+      },
+      {
+        "name":"Python/C",
+        "level":"70%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"65%"
+      },
+      {
+        "name":"HTML/CSS",
+        "level":"90%"
+      },
+      {
+        "name":"MYSQL",
+        "level":"70%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Twitter Clone",
+        "category":"Twitter Clone",
+        "image":"twitterClone.png",
+        "url":"https://github.com/binglingdong/TwitterClone"
+      },
+      {
+        "title":"Sahara",
+        "category":"A team project to develop both the frontend and the backend of an E-commerce website that sells items online. Database schema designed in BCNF form.",
+        "image":"sahara.png",
+        "url":"https://github.com/binglingdong/Sahara"
+      },
+      {
+        "title":"Course Site Generator",
+        "category":"An application that can generate a course website for a course based on user inputs. Transaction Process System (undo/redo). Files saved/uploaded in JSON formats.",
+        "image":"courseSiteGenerator.png",
+        "url":"https://github.com/binglingdong/Course_Site_Generator"
+      },
+      {
+        "title":"SB Diet",
+        "category":"36 hours hackathon team project with the goal to bring awareness to the connection between eating habits and health issues.",
+        "image":"SBDiet.png",
+        "url":"https://github.com/binglingdong/SBsDiet"
+      }
+    ],
+    "writingProject":[
+      {
+        "title":"Colleb",
+        "category":"36 hours hackathon team project with the goal to bring awareness to the connection between eating habits and health issues.",
+        "image":"SBDiet.png",
+        "url":"https://github.com/binglingdong/SBsDiet"
+      }
+    ]
+  }
+}

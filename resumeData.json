@@ -36,10 +36,16 @@
         "degree":"Bachelor and Master of Science in Computer Science",
         "graduated":"May 2021",
         "description":"Accelerated BS/MS Program.",
-        "gpa":"Current GPA: 3.93/4.00"
+        "gpa":"Current GPA: 3.90/4.00"
       }
     ],
     "work":[
+      {
+        "company":"Stony Brook University",
+        "title":"Database and Web Support",
+        "years":"2019 - Present",
+        "description":"Maintain and update Computer Science Department websites for the University"
+      },
       {
         "company":"Stony Brook University",
         "title":"Teaching Assistant",
@@ -87,7 +93,7 @@
     "projects": [
       {
         "title":"Twitter Clone",
-        "category":"Twitter Clone. Working.",
+        "category":"A team project to develop both the frontend and the backend of a Twitter like website on cloud.\nUsed load balance, scale out, and cache to improve performance.",
         "image":"twitterClone.png",
         "url":"https://github.com/binglingdong/TwitterClone"
       },
@@ -108,24 +114,6 @@
         "category":"36 hours hackathon team project with the goal to bring awareness to the connection between eating habits and health issues.",
         "image":"SBDiet.png",
         "url":"https://github.com/binglingdong/SBsDiet"
-      },
-      {
-        "title":"Collaborative Problem Solving",
-        "category":"A group research on the SBU Transit system and application.",
-        "image":"writing.png",
-        "url":"https://raw.githubusercontent.com/binglingdong/Resume/gh-pages/doc/ppt.pdf"
-      },
-      {
-        "title":"News Release",
-        "category":"A news about an upcoming Thanksgiving Event with the Sigma Beta Honors Society",
-        "image":"writing.png",
-        "url":"https://raw.githubusercontent.com/binglingdong/Resume/gh-pages/doc/NewsRelease.pdf"
-      },
-      {
-        "title":"User Instruction: Zelle",
-        "category":"A user manual on how to transfer money online using Zelle.",
-        "image":"zelle.png",
-        "url":"https://raw.githubusercontent.com/binglingdong/Resume/gh-pages/doc/UserInstruction.pdf"
       }
     ]
   }

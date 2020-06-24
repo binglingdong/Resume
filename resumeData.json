@@ -1,20 +1,19 @@
 {
   "main": {
     "name":"Bingling Dong",
-    "occupation":"Software Engineer",
-    "description": "Studying Computer Science at Stony Brook University",
-    "image":"profilepic.jpg",
-    "bio":"I am a college senior seeking a summer internship to gain experiences in all areas. An optimistic, organized, and hard-working young adult that is capable of adapting new concepts quickly.",
+    "occupation":"Software Developer",
+    "description": "Junior Developer at Bank of America",
+    "image":"profilepic.jpeg",
+    "bio":"I am new graduate seeking an opportunity to gain experiences in all areas. An optimistic, organized, and hard-working young adult that is capable of adapting new concepts quickly.",
     "contactmessage":"I am looking forward to hearing from you",
     "email": "bingling.dong@yahoo.com",
     "phone": "917-903-4834",
     "address":{
       "city":"NYC",
-      "state":"New York",
-      "zip": "11204"
+      "state":"New York"
     },
     "website": "https://binglingdong.github.io/Resume/",
-    "resumedownload":"https://raw.githubusercontent.com/binglingdong/Resume/gh-pages/doc/Resume.pdf",
+    "resumedownload":"https://raw.githubusercontent.com/binglingdong/Resume/gh-pages/doc/Resume0624.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -33,35 +32,35 @@
     "education":[
       {
         "school":"Stony Brook University",
-        "degree":"Bachelor and Master of Science in Computer Science",
-        "graduated":"May 2021",
-        "description":"Accelerated BS/MS Program.",
-        "gpa":"Current GPA: 3.90/4.00"
+        "degree":"Bachelor of Science in Computer Science",
+        "graduated":"From: August 2017 - May 2020",
+        "gpa":"GPA: 3.90/4.00"
       }
     ],
     "work":[
       {
         "company":"Stony Brook University - CS Department",
-        "title":"Database and Web Support",
-        "years":"2019 - Present",
-        "description":"Maintain and update Computer Science Department websites for the University"
+        "title":"Database and Web Support - Student Assistant",
+        "years":"December, 2019 - May, 2020",
+        "description":"Maintain and update Computer Science Department websites for the University. Daily tasks include updating, debugging, and upgrading new features. Related programming languages and frameworks: LAMP, Drupal 7, Perl, JavaScript, HTML, CSS.",
+        "example":"Example sites: https://www.cs.stonybrook.edu, https://ai.stonybrook.edu"
       },
       {
         "company":"Teaching Assistant",
         "title":"Fund. of Software Development, Object-Oriented Programming",
-        "years":"2018 - Present",
-        "description":"Hold office hours and help students to learn JavaScript and design Web Applications in a proper way. Intro to Object-Oriented Programming: hold office hours and help students to learn Java."
+        "years":"2018 - 2019",
+        "description":"Daily tasks include holding six office hours per week. Related programming languages and techniques: Java, JavaScript, React, Database, MVC and other design patterns."
       },
       {
         "company":"Sigma Beta Honors Society",
         "title":"E-Board",
-        "years":"2017 - Present",
+        "years":"2017 - 2020",
         "description":"Lead and plan community service projects and volunteer works for Stony Brook University and the communities around it"
       },
       {
         "company":"International Student Ambassadors",
         "title":"Orientation Leader",
-        "years":"2017 - 2019",
+        "years":"2018 - 2019",
         "description":"Lead International students through the Orientation Week."
       }
     ],
@@ -91,14 +90,20 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Bingo",
+        "category":"A team project to develop a website that provides college data for high school students. Designed and wrote Software Requirements Specification document.",
+        "image":"bingo.png",
+        "url":"https://github.com/binglingdong/Bingo"
+      },
+      {
         "title":"Twitter Clone",
-        "category":"A team project to develop both the frontend and the backend of a Twitter like website on cloud.\nUsed load balance, scale out, and cache to improve performance.",
+        "category":"A team project to develop a Twitter like website on cloud.\nUsed load balance, scale out, and cache to improve performance.",
         "image":"twitterClone.png",
         "url":"https://github.com/binglingdong/TwitterClone"
       },
       {
         "title":"Sahara",
-        "category":"A team project to develop both the frontend and the backend of an E-commerce website that sells items online. Database schema designed in BCNF form.",
+        "category":"A team project to develop an E-commerce website that sells items online. Database schema designed in BCNF form.",
         "image":"sahara.png",
         "url":"https://github.com/binglingdong/Sahara"
       },

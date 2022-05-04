@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './style.css';
 
 class Resume extends Component {
   render() {
@@ -18,7 +17,7 @@ class Resume extends Component {
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-            <p className="des">{work.description}</p>
+            <p style={{whiteSpace: 'pre-line'}}>{work.description}</p>
             <hr/>
         </div>
         

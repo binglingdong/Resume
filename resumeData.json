@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"Bingling Dong",
-    "occupation":"Software Developer",
-    "description": "Junior Developer at Bank of America",
+    "occupation":"Software Engineer",
+    "description": "Incoming Software Engineer at Google",
     "image":"profilepic.jpeg",
-    "bio":"I am new graduate seeking an opportunity to gain experiences in all areas. An optimistic, organized, and hard-working young adult that is capable of adapting new concepts quickly.",
+    "bio":"An optimistic, organized, motivated, reliable Software Engineer that is capable of adapting new concepts quickly.",
     "contactmessage":"I am looking forward to hearing from you",
     "email": "bingling.dong@yahoo.com",
     "phone": "917-903-4834",
@@ -13,7 +13,7 @@
       "state":"New York"
     },
     "website": "https://binglingdong.github.io/Resume/",
-    "resumedownload":"https://raw.githubusercontent.com/binglingdong/Resume/gh-pages/doc/Resume0624.pdf",
+    "resumedownload":"https://raw.githubusercontent.com/binglingdong/Resume/gh-pages/doc/Resume050322.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -39,11 +39,27 @@
     ],
     "work":[
       {
+        "company":"Google - P2020 Monitoring Probes",
+        "title":"Software Engineer, Site Reliability Engineering",
+        "years":"May, 2022 - Current"
+      },
+      {
+        "company":"Bank of America - Actionable View",
+        "title":"Technology Analyst",
+        "years":"February, 2021 - April, 2022",
+        "description":"System of Records that stores customer offers, insights and profiles related data. Provides Restful APIs to create, update, and retrieve data in JSON format. Handles over 100 million calls daily. \n - Redesgined and refactored legacy services in modern technology and best coding practice. Greatly increased readability and improved performance. \n - Developed new feature/service to support new projects. \n - Explored POCs of new technologies for performance optimization. \n - Maintained services and provided production support. \n\nSkills: Java 1.8, Spring Boot, Maven, Oracle SQL, MVC, Design Patterns, Mockito, Jenkins, Ansible, IBM Message Queue, Kafka, ReactJS, Javascript, AutoSys, Datastage, Agile"
+      },
+      {
+        "company":"Bank of America - Customer Incentive System",
+        "title":"Technology Analyst",
+        "years":"August, 2020 - February, 2021",
+        "description":"Bank internal web application that provides a stream-lined enrollment process for small business account owners to get cash incentives through front-line associates. Saves over $4 million dollars. \n - Worked on ADA compliance for the application. \n - Developed new feature to support new projects. \n - Maintained services and provided production support. \n\nSkills: Angular 2, Javascript, Java, Spring, Oracle SQL, Agile"
+      },
+      {
         "company":"Stony Brook University - CS Department",
         "title":"Database and Web Support - Student Assistant",
         "years":"December, 2019 - May, 2020",
-        "description":"Maintain and update Computer Science Department websites for the University. Daily tasks include updating, debugging, and upgrading new features. Related programming languages and frameworks: LAMP, Drupal 7, Perl, JavaScript, HTML, CSS.",
-        "example":"Example sites: https://www.cs.stonybrook.edu, https://ai.stonybrook.edu"
+        "description":"Maintain and update Computer Science Department websites for the University. Daily tasks include updating, debugging, and upgrading new features. \n\nSkills: LAMP, Drupal 7, Perl, JavaScript, HTML, CSS. \nExample sites: https://www.cs.stonybrook.edu, https://ai.stonybrook.edu"
       },
       {
         "company":"Teaching Assistant",
@@ -67,7 +83,7 @@
     "skills":[
       {
         "name":"Java",
-        "level":"85%"
+        "level":"90%"
       },
       {
         "name":"Python, JavaScript, C",
@@ -79,11 +95,11 @@
       },
       {
         "name":"MYSQL, MongoDB",
-        "level":"70%"
+        "level":"80%"
       },
       {
         "name":"React, Node.js, Express.js, Django",
-        "level":"75%"
+        "level":"70%"
       }
     ]
   },

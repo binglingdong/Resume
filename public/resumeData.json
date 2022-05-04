@@ -83,23 +83,19 @@
     "skills":[
       {
         "name":"Java",
-        "level":"90%"
+        "level":"85%"
       },
       {
-        "name":"Python, JavaScript, C",
-        "level":"70%"
+        "name":"Python, C",
+        "level":"65%"
       },
       {
-        "name":"HTML, CSS",
-        "level":"90%"
-      },
-      {
-        "name":"MYSQL, MongoDB",
+        "name":"SQL, NoSQL",
         "level":"80%"
       },
       {
-        "name":"React, Node.js, Express.js, Django",
-        "level":"70%"
+        "name":"React, Angular, HTML/CSS",
+        "level":"65%"
       }
     ]
   },
